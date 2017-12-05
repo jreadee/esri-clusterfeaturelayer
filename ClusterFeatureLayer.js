@@ -162,7 +162,7 @@ define([
 
       this._font = options.font || new Font('10pt').setFamily('Arial');
 
-      this._sr = options.spatialReference || new SpatialReference({ 'wkid': 102100 });
+      this._sr = options.spatialReference || new SpatialReference({ 'wkid': 2193 });
 
       this._zoomEnd = null;
 
